@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34004.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasaBlazorMauiAppTest", "MasaBlazorMauiAppTest\MasaBlazorMauiAppTest\MasaBlazorMauiAppTest.csproj", "{009C7EAF-A215-4565-B063-B0EC61862FE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasaBlazorMauiAppTest.Client", "MasaBlazorMauiAppTest\MasaBlazorMauiAppTest.Client\MasaBlazorMauiAppTest.Client.csproj", "{0FA82F3D-87BC-4B79-A5D9-0332392D72A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasaBlazorMauiAppTest.Rcl", "MasaBlazorMauiAppTest\MasaBlazorMauiAppTest.Rcl\MasaBlazorMauiAppTest.Rcl.csproj", "{1317B209-9EED-41F5-82AF-3E7ED62B765C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasaBlazorMauiAppTest.Server", "MasaBlazorMauiAppTest\MasaBlazorMauiAppTest.Server\MasaBlazorMauiAppTest.Server.csproj", "{AD6FD188-F6A4-4D2C-B393-70F48CE38B45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasaBlazorMauiAppTest.Shared", "MasaBlazorMauiAppTest\MasaBlazorMauiAppTest.Shared\MasaBlazorMauiAppTest.Shared.csproj", "{14975399-A9F0-4CA0-9590-1591626AAF13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{009C7EAF-A215-4565-B063-B0EC61862FE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{009C7EAF-A215-4565-B063-B0EC61862FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{009C7EAF-A215-4565-B063-B0EC61862FE9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{009C7EAF-A215-4565-B063-B0EC61862FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{009C7EAF-A215-4565-B063-B0EC61862FE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{009C7EAF-A215-4565-B063-B0EC61862FE9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0FA82F3D-87BC-4B79-A5D9-0332392D72A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FA82F3D-87BC-4B79-A5D9-0332392D72A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FA82F3D-87BC-4B79-A5D9-0332392D72A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FA82F3D-87BC-4B79-A5D9-0332392D72A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1317B209-9EED-41F5-82AF-3E7ED62B765C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1317B209-9EED-41F5-82AF-3E7ED62B765C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1317B209-9EED-41F5-82AF-3E7ED62B765C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1317B209-9EED-41F5-82AF-3E7ED62B765C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD6FD188-F6A4-4D2C-B393-70F48CE38B45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD6FD188-F6A4-4D2C-B393-70F48CE38B45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD6FD188-F6A4-4D2C-B393-70F48CE38B45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD6FD188-F6A4-4D2C-B393-70F48CE38B45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14975399-A9F0-4CA0-9590-1591626AAF13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14975399-A9F0-4CA0-9590-1591626AAF13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14975399-A9F0-4CA0-9590-1591626AAF13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14975399-A9F0-4CA0-9590-1591626AAF13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {844FD608-FBF6-4140-8CF9-43013FA6D887}
+	EndGlobalSection
+EndGlobal

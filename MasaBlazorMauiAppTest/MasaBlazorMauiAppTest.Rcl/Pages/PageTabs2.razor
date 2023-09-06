@@ -1,0 +1,20 @@
+﻿@page "/blazor/examples/page-tabs/page2"
+@layout MainLayout
+
+<h4>@@Body is wrapped in PageContainer, the state of the page would be saved</h4>
+
+<div style="max-height:30vh;overflow:scroll;">
+    <MRadioGroup @bind-Value="_value" TValue="string" Row>
+        <MRadio Label="radio1" Value="@("radio1")"></MRadio>
+        <MRadio Label="radio2" Value="@("radio2")"></MRadio>
+        <MRadio Label="radio3" Value="@("radio3")"></MRadio>
+    </MRadioGroup>
+    <div style="height:1000px;">
+    </div>
+</div>
+
+@code {
+
+    private string? _value;
+
+}

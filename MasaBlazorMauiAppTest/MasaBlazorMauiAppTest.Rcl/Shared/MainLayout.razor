@@ -1,0 +1,28 @@
+﻿@inherits LayoutComponentBase
+
+<MApp>
+    <PPageTabsProvider>
+        <MAppBar App Color="white">
+         </MAppBar>
+
+         <MMain>
+             <MContainer>
+                 <MCard Outlined>
+                    <MCardText>
+                        <PPageContainer>
+                            @Body
+                        </PPageContainer>
+                    </MCardText>
+                </MCard>
+            </MContainer>
+
+        </MMain>
+    </PPageTabsProvider>
+
+    <MBottomNavigation App Routable Color="primary">
+         <MButton Href="/blazor/examples/page-tabs/page1">Page 1</MButton>
+         <MButton Href="/blazor/examples/page-tabs/page2">Page 2</MButton>
+         <MButton Href="/blazor/examples/page-tabs/page3">Page 3</MButton>
+         <MButton Href="/blazor/examples/page-tabs/page4">Page 4</MButton>
+     </MBottomNavigation>
+ </MApp>
